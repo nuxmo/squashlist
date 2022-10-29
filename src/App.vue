@@ -1,31 +1,21 @@
 <script setup>
-import { ref } from 'vue'
-
 import SlHeader from './components/Header.vue'
 import SlCategory from './components/Category.vue'
-
-const categories = ref([
-	'watch',
-	'training',
-	'news',
-	'reviews',
-	'shops',
-	'community'
-])
-
+import categories from './categories'
 </script>
 
 <template>
-    <sl-header></sl-header>
-    <template
-      v-for="category in categories"
-    >
+    <sl-header />
+    <div class="container">
 		<sl-category
+			v-for="category in categories"
 			:category="category"
 		/>
-    </template>
+    </div>
 </template>
 
 <style scoped>
-
+.container {
+	display: flex;
+}
 </style>

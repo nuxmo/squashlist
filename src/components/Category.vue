@@ -1,23 +1,25 @@
 <script setup>
+import SlItem from './Item.vue'
 defineProps({
-  	category: String
+  	category: Object
 })
 </script>
 
 <template>
-	<div>
-		{{ category }}
+	<div class="item">
+		<div>
+			<font-awesome-icon :icon="`fa-solid fa-${ category.icon }`" />
+			{{ category.cat }}
+		</div>
+		<sl-item
+			v-for="item in category.items"
+			:item="item"
+		/>
 	</div>
 </template>
 
 <style scoped lang="scss">
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	.logo {
-		margin: 20px;
-	}
+.item {
+	max-width: 300px
 }
 </style>
