@@ -18,22 +18,187 @@ export default [
 	},
 	{
 		cat: 'training',
-		icon: 'person-running'
+		icon: 'person-running',
+		items: [
+			{
+				name: 'Better Squash',
+				url: 'https://www.youtube.com/BetterSquash',
+				desc: 'Tips, drills, technique, and training videos from ex-professional squash coach.'
+			},
+			{
+				name: 'Squash Skills',
+				url: 'https://www.squashskills.com/',
+				paid: true,
+				desc: 'Online coaching platform, with some of the world\'s best coaches and players.'
+			},
+			{
+				name: 'AR Proformance',
+				url: 'https://www.youtube.com/ARProformance',
+				desc: 'Really detailed videos on technique, tactics, and analysis of squash.'
+			},
+			{
+				name: 'Squash Originals',
+				url: 'https://www.youtube.com/channel/UCCnBsPNnF3PQ1ljTbcuIT9w',
+				desc: 'Tips and tricks, drills, and training routines.'
+			},
+			{
+				name: 'The Pursuit of Squash',
+				url: 'https://www.youtube.com/ThePursuitofSquash',
+				desc: 'A challenge-based training program.'
+			},
+			{
+				name: 'Cross Court Analytics',
+				url: 'https://crosscourtanalytics.com/',
+				desc: 'Data-driven analysis of squash players and matches.'
+			}
+		]
 	},
 	{
 		cat: 'news',
-		icon: 'newspaper'
+		icon: 'newspaper',
+		items: [
+			{
+				name: 'Better Squash',
+				url: 'https://www.youtube.com/BetterSquash',
+				desc: 'Tips, drills, technique, and training videos from ex-professional squash coach.'
+			},
+			{
+				name: 'Squash Skills',
+				url: 'https://www.squashskills.com/',
+				paid: true,
+				desc: 'Online coaching platform, with some of the world\'s best coaches and players.'
+			},
+			{
+				name: 'AR Proformance',
+				url: 'https://www.youtube.com/ARProformance',
+				desc: 'Really detailed videos on technique, tactics, and analysis of squash.'
+			},
+			{
+				name: 'Squash Originals',
+				url: 'https://www.youtube.com/channel/UCCnBsPNnF3PQ1ljTbcuIT9w',
+				desc: 'Tips and tricks, drills, and training routines.'
+			},
+			{
+				name: 'The Pursuit of Squash',
+				url: 'https://www.youtube.com/ThePursuitofSquash',
+				desc: 'A challenge-based training program.'
+			},
+			{
+				name: 'Cross Court Analytics',
+				url: 'https://crosscourtanalytics.com/',
+				desc: 'Data-driven analysis of squash players and matches.'
+			}
+		]
 	},
 	{
 		cat: 'reviews',
-		icon: 'star-half-stroke'
+		icon: 'star-half-stroke',
+		items: [
+			{
+				name: 'Better Squash',
+				url: 'https://www.youtube.com/BetterSquash',
+				desc: 'Tips, drills, technique, and training videos from ex-professional squash coach.'
+			},
+			{
+				name: 'Squash Skills',
+				url: 'https://www.squashskills.com/',
+				paid: true,
+				desc: 'Online coaching platform, with some of the world\'s best coaches and players.'
+			},
+			{
+				name: 'AR Proformance',
+				url: 'https://www.youtube.com/ARProformance',
+				desc: 'Really detailed videos on technique, tactics, and analysis of squash.'
+			},
+			{
+				name: 'Squash Originals',
+				url: 'https://www.youtube.com/channel/UCCnBsPNnF3PQ1ljTbcuIT9w',
+				desc: 'Tips and tricks, drills, and training routines.'
+			},
+			{
+				name: 'The Pursuit of Squash',
+				url: 'https://www.youtube.com/ThePursuitofSquash',
+				desc: 'A challenge-based training program.'
+			},
+			{
+				name: 'Cross Court Analytics',
+				url: 'https://crosscourtanalytics.com/',
+				desc: 'Data-driven analysis of squash players and matches.'
+			}
+		]
 	},
 	{
 		cat: 'shops',
-		icon: 'basket-shopping'
+		icon: 'basket-shopping',
+		items: [
+			{
+				name: 'Better Squash',
+				url: 'https://www.youtube.com/BetterSquash',
+				desc: 'Tips, drills, technique, and training videos from ex-professional squash coach.'
+			},
+			{
+				name: 'Squash Skills',
+				url: 'https://www.squashskills.com/',
+				paid: true,
+				desc: 'Online coaching platform, with some of the world\'s best coaches and players.'
+			},
+			{
+				name: 'AR Proformance',
+				url: 'https://www.youtube.com/ARProformance',
+				desc: 'Really detailed videos on technique, tactics, and analysis of squash.'
+			},
+			{
+				name: 'Squash Originals',
+				url: 'https://www.youtube.com/channel/UCCnBsPNnF3PQ1ljTbcuIT9w',
+				desc: 'Tips and tricks, drills, and training routines.'
+			},
+			{
+				name: 'The Pursuit of Squash',
+				url: 'https://www.youtube.com/ThePursuitofSquash',
+				desc: 'A challenge-based training program.'
+			},
+			{
+				name: 'Cross Court Analytics',
+				url: 'https://crosscourtanalytics.com/',
+				desc: 'Data-driven analysis of squash players and matches.'
+			}
+		]
 	},
 	{
 		cat: 'community',
-		icon: 'people-group'
+		icon: 'people-group',
+		items: [
+			{
+				name: 'Better Squash',
+				url: 'https://www.youtube.com/BetterSquash',
+				desc: 'Tips, drills, technique, and training videos from ex-professional squash coach.'
+			},
+			{
+				name: 'Squash Skills',
+				url: 'https://www.squashskills.com/',
+				paid: true,
+				desc: 'Online coaching platform, with some of the world\'s best coaches and players.'
+			},
+			{
+				name: 'AR Proformance',
+				url: 'https://www.youtube.com/ARProformance',
+				desc: 'Really detailed videos on technique, tactics, and analysis of squash.'
+			},
+			{
+				name: 'Squash Originals',
+				url: 'https://www.youtube.com/channel/UCCnBsPNnF3PQ1ljTbcuIT9w',
+				desc: 'Tips and tricks, drills, and training routines.'
+			},
+			{
+				name: 'The Pursuit of Squash',
+				url: 'https://www.youtube.com/ThePursuitofSquash',
+				desc: 'A challenge-based training program.'
+			},
+			{
+				name: 'Cross Court Analytics',
+				url: 'https://crosscourtanalytics.com/',
+				desc: 'Data-driven analysis of squash players and matches.'
+			}
+		]
 	}
 ]

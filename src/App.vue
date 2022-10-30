@@ -6,16 +6,28 @@ import categories from './categories'
 
 <template>
     <sl-header />
-    <div class="container">
-		<sl-category
-			v-for="category in categories"
-			:category="category"
-		/>
-    </div>
+	<div class="wrapper">
+		<div class="container">
+			<sl-category
+				v-for="category in categories"
+				:category="category"
+			/>
+		</div>		
+	</div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.wrapper {
+	font-size: 0.8rem;
+	line-height: 1.5;
+}
+
 .container {
 	display: flex;
+	padding: 20px;
+    background: url('./bg.jpg') no-repeat;
+    background-size: cover;
+	overflow: auto;
+	max-height: calc(100vh - 80px)
 }
 </style>
