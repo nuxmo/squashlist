@@ -1,13 +1,13 @@
 export default [
 	{
 		cat: 'watch',
-		icon: 'circle-play',
+		icon: 'play',
         items: [
             {
                 name: 'SquashTV',
                 url: 'https://squash.tv/',
                 paid: true,
-                desc: 'Live squash streaming of pro squash tournaments. Replays and highlights, and a huge archive of previous matches going all the way back to the 1980s.'
+                desc: 'Live streaming of pro squash. Replays and highlights, and a huge archive of previous matches going all the way back to the 1980s.'
             },
 			{
                 name: 'PSA YouTube Channel',
@@ -23,7 +23,7 @@ export default [
 			{
 				name: 'Better Squash',
 				url: 'https://www.youtube.com/BetterSquash',
-				desc: 'Tips, drills, technique, and training videos from ex-professional squash coach.'
+				desc: 'Tips, drills, technique, and training videos with an ex-professional squash coach.'
 			},
 			{
 				name: 'Squash Skills',
@@ -34,7 +34,7 @@ export default [
 			{
 				name: 'AR Proformance',
 				url: 'https://www.youtube.com/ARProformance',
-				desc: 'Really detailed videos on technique, tactics, and analysis of squash.'
+				desc: 'Detailed videos on technique, tactics, and analysis of squash.'
 			},
 			{
 				name: 'Squash Originals',

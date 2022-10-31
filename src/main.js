@@ -5,23 +5,25 @@ import './main.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
-    faCirclePlay,
+    faPlay,
     faPersonRunning,
     faNewspaper,
     faStarHalfStroke,
     faBasketShopping,
     faPeopleGroup,
-    faMoneyBillWave
+    faMoneyBills,
+    faCirclePlus
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
-    faCirclePlay,
+    faPlay,
     faPersonRunning,
     faNewspaper,
     faStarHalfStroke,
     faBasketShopping,
     faPeopleGroup,
-    faMoneyBillWave
+    faMoneyBills,
+    faCirclePlus
 )
 
 createApp(App)

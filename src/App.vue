@@ -7,23 +7,23 @@ import categories from './categories'
 <template>
     <sl-header />
 	<div class="wrapper">
-		<div class="container">
+		<main class="container" id="main">
 			<sl-category
 				v-for="category in categories"
 				:category="category"
 			/>
-		</div>		
+		</main>		
 	</div>
 </template>
 
 <style scoped lang="scss">
 .wrapper {
-	font-size: 0.8rem;
 	line-height: 1.5;
 }
 
 .container {
 	display: flex;
+	column-gap: 20px;
 	padding: 20px;
     background: url('./bg.jpg') no-repeat;
     background-size: cover;
