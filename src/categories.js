@@ -133,5 +133,16 @@ export default [
 				desc: 'App that can be used to find squash venues, and record match results.'
 			}
 		]
+	},
+	{
+		cat: 'shops',
+		icon: 'basket-shopping',
+		items: [
+			{
+				name: 'PDH Sports',
+				url: 'https://www.pdhsports.com/',
+				desc: 'Online shop specialising in rackets sports.'
+			}
+		]
 	}
 ]
