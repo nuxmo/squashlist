@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './main.scss'
+import './styles/main.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -12,7 +12,10 @@ import {
     faBasketShopping,
     faPeopleGroup,
     faMoneyBills,
-    faCirclePlus
+    faCirclePlus,
+    faXmark,
+    faFaceFrown,
+    faFaceSmile
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -23,7 +26,10 @@ library.add(
     faBasketShopping,
     faPeopleGroup,
     faMoneyBills,
-    faCirclePlus
+    faCirclePlus,
+    faXmark,
+    faFaceFrown,
+    faFaceSmile
 )
 
 createApp(App)

@@ -1,0 +1,33 @@
+.item {
+    transition: right 0.3s, transform 0.3s;
+	display: block;
+	background: $gray-superlight;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 0 $border-radius 0 0;
+	position: relative;
+	// box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+
+    p {
+        color: $gray-dark;
+        text-decoration: none;
+        margin: 0;
+
+        &:not(.desc) {
+            color: rgb(74, 74, 222);
+            margin: 0 0 10px 0;
+            display: flex;
+        }
+    }
+
+    .money-icon {
+        margin-left: auto;
+        color: $gray
+    }
+
+}
