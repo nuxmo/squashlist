@@ -1,6 +1,6 @@
 export default [
 	{
-		cat: 'watch/listen',
+		cat: 'streaming',
 		icon: 'play',
         items: [
             {
@@ -13,11 +13,6 @@ export default [
                 name: 'PSA YouTube Channel',
                 url: 'https://www.youtube.com/psasquashtv',
                 desc: 'Mainly highlights of pro squash tournaments. Every few weeks selected matches are streamed live.'
-            },
-			{
-                name: 'In Squash Podcast',
-                url: 'https://podcasts.apple.com/us/podcast/in-squash-the-podcast/id1339208693',
-                desc: 'Interviews and conversations with the pros - players, coaches, referees.'
             }
         ]
 	},
@@ -55,11 +50,16 @@ export default [
 				name: 'Cross Court Analytics',
 				url: 'https://crosscourtanalytics.com/',
 				desc: 'Data-driven analysis of squash players and matches.'
+			},
+			{
+				name: 'Ghosting',
+				url: 'https://m11tdev.github.io/ghosting/',
+				desc: 'Web app that uses visual (not audio) cues for squash ghosting.'
 			}
 		]
 	},
 	{
-		cat: 'news, blogs',
+		cat: 'news',
 		icon: 'newspaper',
 		items: [
 			{
@@ -80,13 +80,18 @@ export default [
 			{
 				name: 'Squash Site',
 				url: 'https://thesquashsite.com/',
-				desc: 'Covers all levels of pro squash.'
+				desc: 'News from all levels of pro squash.'
 			},
 			{
 				name: 'BBC Sport - Squash',
 				url: 'https://www.bbc.co.uk/sport/squash',
-				desc: 'BBC squash news, not updated as frequently as the other sites above.'
-			}
+				desc: 'BBC squash news, not updated as frequently as other sites.'
+			},
+			{
+                name: 'In Squash Podcast',
+                url: 'https://podcasts.apple.com/us/podcast/in-squash-the-podcast/id1339208693',
+                desc: 'Interviews and conversations with the pros - players, coaches, referees.'
+            }
 		]
 	},
 	{
@@ -101,14 +106,12 @@ export default [
 			{
 				name: 'Squash Gear Reviews',
 				url: 'https://squashgearreviews.com/',
-				paid: true,
 				desc: 'Reviews of rackets, shoes, and accessories.'
 			},
 			{
 				name: 'PDHSports squash blog',
 				url: 'https://www.pdhsports.com/blog/squash',
-				paid: true,
-				desc: 'Reviews from the online shop that specialises in all things racket-sports-related.'
+				desc: 'Reviews from the online shop that specialises racket sports.'
 			}
 		]
 	},
@@ -119,7 +122,7 @@ export default [
 			{
 				name: 'Squash Reddit',
 				url: 'https://www.reddit.com/r/squash',
-				desc: 'Very active community with friendly people happy to discuss squash.'
+				desc: 'Active Reddit community discussing all aspects of squash.'
 			},
 			{
 				name: 'Squash Levels',
@@ -130,7 +133,7 @@ export default [
 			{
 				name: 'Squash Players',
 				url: 'https://apps.apple.com/gb/app/squash-players/id1448478025',
-				desc: 'App that can be used to find squash venues, and record match results.'
+				desc: 'App to find squash venues, and record match results.'
 			}
 		]
 	},

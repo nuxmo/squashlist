@@ -69,7 +69,7 @@ const submitSuggestion = () => {
 	btnDisabled.value = true
 
 	set(
-		fbRef(db, '/suggestions/item'),
+		fbRef(db, `/suggest/item-${ Math.floor(Date.now() * Math.random()) }`),
 		unref(form),
 		(error) => {
 			if(error) {
