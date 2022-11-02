@@ -78,7 +78,7 @@ export default [
 				desc: 'Official site for the pro tour.'
 			},
 			{
-				name: 'Squash Site',
+				name: 'SquashSite',
 				url: 'https://thesquashsite.com/',
 				desc: 'News from all levels of pro squash.'
 			},
