@@ -115,7 +115,7 @@ onMounted(() => {
 </script>
 
 <template>
-	<div class="header">
+	<header class="header">
 		<div class="skip">
 			<a class="sr-only sr-only-focusable" href="#main">
 				Skip to content
@@ -223,6 +223,6 @@ onMounted(() => {
 				</div>
 			</div>
 		</div>
-	</div>
-	<h1 class="sr-only">Squash sites, apps, &amp; resources</h1>
+		<h1 class="sr-only">Squash sites, apps, &amp; resources</h1>
+	</header>
 </template>
