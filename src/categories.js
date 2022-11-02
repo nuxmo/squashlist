@@ -144,7 +144,7 @@ export default [
 			{
 				name: 'PDH Sports',
 				url: 'https://www.pdhsports.com/',
-				desc: 'Online shop specialising in rackets sports.'
+				desc: 'Online shop specialising in racket sports.'
 			}
 		]
 	}
