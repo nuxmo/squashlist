@@ -2,6 +2,7 @@
 import { nextTick, ref, unref, watch, onMounted } from 'vue'
 import { initializeApp } from 'firebase/app'
 import { getDatabase, ref as fbRef, set } from 'firebase/database'
+import fbConfig from './../configs/firebase.config'
 
 // Suggestion form
 const formWrapper = ref(null)
@@ -52,15 +53,6 @@ watch(
 )
 
 // Firebase
-const fbConfig = {
-	apiKey: "AIzaSyAafPKtLoc5BfiqN-j9AGJLlkIcEbJE3rw",
-	authDomain: "squash-list.firebaseapp.com",
-	databaseURL: "https://squash-list-default-rtdb.firebaseio.com",
-	projectId: "squash-list",
-	storageBucket: "squash-list.appspot.com",
-	messagingSenderId: "537914321064",
-	appId: "1:537914321064:web:6df5523c5fc9d1c9b83a9d"
-}
 const app = initializeApp(fbConfig)
 const db = getDatabase(app)
 
