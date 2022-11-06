@@ -1,27 +1,31 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, unref, onMounted } from 'vue'
 
 import SlHeader from './components/Header.vue'
 import SlCategory from './components/Category.vue'
 
 import { initializeApp } from 'firebase/app'
-import { getDatabase, ref as fbRef, child, get } from 'firebase/database'
+import { getDatabase, ref as fbRef, set, child, get } from 'firebase/database'
 import fbConfig from './configs/firebase.config'
 
 // Firebase
 const app = initializeApp(fbConfig)
 const db = getDatabase(app)
+const dbRef = fbRef(db)
 
 const categories = ref([])
 const error = ref('')
 
+const visits =  ref(0)
+const token = '*K^3j3YCB80cjijCxNg9JC2AlWyXBZh*zlcbaAilqL2YGx8q9CHcj5dJ$UgFcGooPV*lD5kpkOQswP4zcH$7GB6&ZifR009NFid'
+
 onMounted(() => {
 	getData()
+	if(import.meta.env.VITE_DEV) return
+	updateVisits()
 })
 
 const getData = () => {
-
-	const dbRef = fbRef(db)
 
 	get(child(dbRef, 'categories'))
 	.then((snapshot) => {
@@ -35,6 +39,40 @@ const getData = () => {
 		error.value = err
 	})
 
+}
+
+const updateVisits = () => {
+
+	get(child(dbRef, 'visits'))
+	.then((snapshot) => {
+		if (snapshot.exists()) {
+			visits.value = snapshot.val().data
+			visits.value++
+			setVisits()
+		} else {
+			console.log("No data available")
+		}
+	})
+	.catch((err) => {
+		console.log(err)
+	})
+
+}
+
+const setVisits = () => {
+
+	set(
+		fbRef(db, `/visits/`),
+		{
+			data: unref(visits),
+			token
+		},
+		(err) => {
+			if(err) {
+				console.log(err)
+			}
+		}
+	)
 }
 
 </script>

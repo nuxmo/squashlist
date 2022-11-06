@@ -65,9 +65,9 @@ const submitSuggestion = () => {
 		unref(form),
 		(error) => {
 			if(error) {
-				apiError = true
+				apiError.value = true
 			} else {
-				submitSuccess = true
+				submitSuccess.value = true
 			}
 		}
 	)
