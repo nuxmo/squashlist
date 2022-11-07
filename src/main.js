@@ -15,7 +15,9 @@ import {
     faCirclePlus,
     faXmark,
     faFaceFrown,
-    faFaceSmile
+    faFaceSmile,
+    faArrowDownAZ,
+    faArrowUpZA
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -29,7 +31,9 @@ library.add(
     faCirclePlus,
     faXmark,
     faFaceFrown,
-    faFaceSmile
+    faFaceSmile,
+    faArrowDownAZ,
+    faArrowUpZA
 )
 
 createApp(App)
