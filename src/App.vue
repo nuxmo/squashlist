@@ -21,7 +21,7 @@ const token = '*K^3j3YCB80cjijCxNg9JC2AlWyXBZh*zlcbaAilqL2YGx8q9CHcj5dJ$UgFcGooP
 
 onMounted(() => {
 	getData()
-	if(import.meta.env.VITE_DEV) return
+	if(import.meta.env.VITE_DEV || document.location.search.includes('no-stats')) return
 	updateVisits()
 })
 
