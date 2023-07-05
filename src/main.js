@@ -17,11 +17,13 @@ import {
     faFaceFrown,
     faFaceSmile,
     faArrowDownAZ,
-    faArrowUpZA
+    faArrowUpZA,
+    faTv
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
     faPlay,
+    faTv,
     faPersonRunning,
     faNewspaper,
     faStarHalfStroke,
