@@ -1,11 +1,11 @@
 .item {
     transition: right 0.3s, transform 0.3s;
-	display: block;
-	background: $gray-superlight;
-	padding: 10px;
-	margin-bottom: 20px;
-	border-radius: 0 $border-radius 0 0;
-	position: relative;
+    display: block;
+    background: $gray-superlight;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 0 $border-radius 0 0;
+    position: relative;
     text-decoration: none;
 
     p {
@@ -17,6 +17,7 @@
             color: rgb(74, 74, 222);
             margin: 0 0 10px 0;
             display: flex;
+            text-decoration: underline;
         }
     }
 

@@ -2,6 +2,7 @@
 import { ref, unref, onMounted } from 'vue'
 
 import SlHeader from './components/Header.vue'
+import SlFooter from './components/Footer.vue'
 import SlCategory from './components/Category.vue'
 
 import { initializeApp } from 'firebase/app'
@@ -94,8 +95,9 @@ const setVisits = () => {
 					:category="category"
 				/>
 			</template>
-		</main>	
+		</main>
 	</div>
+    <sl-footer />
 </template>
 
 <style lang="scss">
