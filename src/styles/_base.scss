@@ -45,7 +45,7 @@ html {
 .container {
     display: flex;
     overflow: auto;
-    max-height: calc(100vh - #{ $header-height + $footer-height })
+    height: calc(100vh - #{ $header-height + $footer-height })
 }
 
 h2 {
