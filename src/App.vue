@@ -113,7 +113,6 @@ const setVisits = () => {
 
 .loading,
 .error {
-	margin-top: 150px;
     text-align: center;
     width: 100%;
     display: flex;
